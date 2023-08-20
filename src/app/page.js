@@ -32,9 +32,7 @@ export default function Home() {
             className="border rounded p-2 w-full resize-none text-black"
             placeholder="Type your description here"
           ></textarea>
-        <button className="bg-blue-500 text-black px-4 py-2 rounded hover:bg-blue-600">
-          Submit
-        </button>
+      
         </div>
         <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
           Submit
