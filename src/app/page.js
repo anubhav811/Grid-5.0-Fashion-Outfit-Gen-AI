@@ -36,37 +36,6 @@ export default function Home() {
           Submit
         </button>
         </div>
-        <div>
-          <h1 className="text-xl text-black font-semibold mb-4">Select Outfit Components</h1>
-          <div className="mb-4">
-            <input
-              className="border rounded p-2 w-full"
-              type="text"
-              placeholder="Top"
-            />
-          </div>
-          <div className="mb-4">
-            <input
-              className="border rounded p-2 w-full"
-              type="text"
-              placeholder="Bottom"
-            />
-          </div>
-          <div className="mb-4">
-            <input
-              className="border rounded p-2 w-full"
-              type="text"
-              placeholder="Footwear"
-            />
-          </div>
-          <div className="mb-4">
-            <input
-              className="border rounded p-2 w-full"
-              type="text"
-              placeholder="Accessories"
-            />
-          </div>
-        </div>
         <button className="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">
           Submit
         </button>
