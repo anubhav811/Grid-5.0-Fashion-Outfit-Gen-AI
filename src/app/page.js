@@ -46,8 +46,7 @@ export default function Home() {
           {products.map((product) => (
             <div
               key={product.id}
-              className="border p-4 rounded bg-white shadow-md"
-            >
+              className="border p-4 rounded bg-white shadow-md">
               <h2 className="text-lg font-semibold text-black">{product.name}</h2>
               <p className="text-gray-600">{product.description}</p>
               <p className="text-green-600 font-semibold text-black">{product.price}</p>
